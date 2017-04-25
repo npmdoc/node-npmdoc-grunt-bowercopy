@@ -1,6 +1,6 @@
 # npmdoc-grunt-bowercopy
 
-#### api documentation for  [grunt-bowercopy (v1.2.4)](https://github.com/timmywil/grunt-bowercopy)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-bowercopy.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-bowercopy) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-bowercopy.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-bowercopy)
+#### basic api documentation for  [grunt-bowercopy (v1.2.4)](https://github.com/timmywil/grunt-bowercopy)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-bowercopy.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-bowercopy) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-bowercopy.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-bowercopy)
 
 #### Scrupulously manage file locations for bower dependencies.
 
@@ -21,38 +21,19 @@
 ```json
 
 {
-    "name": "grunt-bowercopy",
-    "version": "1.2.4",
-    "description": "Scrupulously manage file locations for bower dependencies.",
-    "homepage": "https://github.com/timmywil/grunt-bowercopy",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/timmywil/grunt-bowercopy.git"
-    },
-    "bugs": "https://github.com/timmywil/grunt-bowercopy/issues",
     "author": {
         "name": "Timmy Willison",
         "url": "http://timmywillison.com"
     },
-    "keywords": [
-        "gruntplugin",
-        "bowercopy",
-        "bower",
-        "copy"
-    ],
-    "engines": {
-        "node": ">= 0.10.0"
+    "bugs": {
+        "url": "https://github.com/timmywil/grunt-bowercopy/issues"
     },
-    "licenses": [
-        {
-            "type": "MIT"
-        }
-    ],
     "dependencies": {
         "bower": "^1.3.5",
         "glob": "^4.3.5",
         "lodash": "^3.1.0"
     },
+    "description": "Scrupulously manage file locations for bower dependencies.",
     "devDependencies": {
         "grunt": "^0.4.5",
         "grunt-bump": "^0.1.0",
@@ -63,9 +44,42 @@
         "grunt-jsonlint": "^1.0.4",
         "load-grunt-tasks": "^3.1.0"
     },
+    "directories": {},
+    "dist": {
+        "shasum": "0c269f681b38bbdfa13b01dac812489ef3224c57",
+        "tarball": "https://registry.npmjs.org/grunt-bowercopy/-/grunt-bowercopy-1.2.4.tgz"
+    },
+    "engines": {
+        "node": ">= 0.10.0"
+    },
+    "gitHead": "5921baf2217883122901d9a7f9ac8f6ec208620c",
+    "homepage": "https://github.com/timmywil/grunt-bowercopy",
+    "keywords": [
+        "gruntplugin",
+        "bowercopy",
+        "bower",
+        "copy"
+    ],
+    "licenses": [
+        {
+            "type": "MIT"
+        }
+    ],
+    "maintainers": [
+        {
+            "name": "timmywil"
+        }
+    ],
+    "name": "grunt-bowercopy",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/timmywil/grunt-bowercopy.git"
+    },
     "scripts": {
         "test": "grunt test"
     },
+    "version": "1.2.4",
     "bin": {}
 }
 ```
